@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Flask
+instance/
+.env
+
+# React
+node_modules/
+build/
+dist/
+.env
+
+# VS Code
+.vscode/

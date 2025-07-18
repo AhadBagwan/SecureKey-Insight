@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="range"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-mode {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.slider-group {
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.results {
+  margin-top: 1rem;
+}
+
+.strength-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.3s;
+}
+
+.score-1 { width: 20%; background-color: red; }
+.score-2 { width: 40%; background-color: orangered; }
+.score-3 { width: 60%; background-color: orange; }
+.score-4 { width: 80%; background-color: gold; }
+.score-5 { width: 100%; background-color: green; }
+
+.strength-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.weak { color: red; }
+.moderate { color: orange; }
+.strong { color: green; }
+
+.warning {
+  color: darkorange;
+  font-weight: 600;
+}
+
+.breach {
+  font-weight: 600;
+  margin-top: 1rem;
+  color: crimson;
+}
+
+.tips {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.light-mode {
+  background-color: #f5f7fb;
+  color: #111;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.dark-mode .tips {
+  background-color: #1e1e1e;
+}
+
+.info {
+  color: seagreen;
+}
+.suggestions {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  color: #444;
+  font-style: italic;
+}
+
+.suggestions li {
+  margin-bottom: 4px;
+}
+
+.light-mode {
+  background: linear-gradient(to right, #f5f7fb, #e6efff);
+  color: #111;
+}
+
+.light-mode .tips {
+  background-color: #e2ebf5;
+}
+
+.light-mode button {
+  background-color: #3b7ddd;
+}
+
+.light-mode button:hover {
+  background-color: #2e6edb;
+}
