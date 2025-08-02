@@ -47,9 +47,8 @@ function App() {
 
   const checkBreach = async () => {
     try {
-      const res = await axios.post("http://127.0.0.1:5000/api/check", {
-        password,
-      });
+      const res = await axios.post("https://securekey-insight.onrender.com/api/check", { password });
+
       setBreachStatus(res.data.breach_result);
     } catch {
       setBreachStatus("Error checking breach");
