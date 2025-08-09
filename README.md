@@ -71,6 +71,10 @@ Below is a sample screenshot of the live password evaluation interface:
 
 <img width="1870" height="788" alt="image" src="https://github.com/user-attachments/assets/0447bad0-e143-4d15-a674-3ba4170142c4" />
 
+## 🚀 Live Demo
+The project is live at: [SecureKey Insight](https://secure-key-insight-kbun.vercel.app/)
+
+Hosted using [Vercel](https://vercel.com/).
 
 
 
